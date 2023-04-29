@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="335.0" prefWidth="310.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.TableroController">
+    <children>
+        <MenuBar layoutY="2.0">
+            <menus>
+                <Menu mnemonicParsing="false" text="Archivo">
+                    <items>
+                        <MenuItem fx:id="nuevo" mnemonicParsing="false" onAction="#nuevoJuego" text="Nuevo" />
+                        <MenuItem fx:id="abrir" mnemonicParsing="false" onAction="#fun" text="Abrir" />
+                        <MenuItem fx:id="guardar" mnemonicParsing="false" onAction="#guardar" text="Guardar" />
+                        <MenuItem fx:id="pausar" mnemonicParsing="false" onAction="#fun" text="Pausar" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+        <Pane layoutY="27.0" prefHeight="310.0" prefWidth="310.0" style="-fx-border-color: #333333; -fx-border-width: 5px;">
+            <children>
+                <Button fx:id="btna3" focusTraversable="false" layoutX="5.0" layoutY="5.0" mnemonicParsing="false" onMouseClicked="#clickA3" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #ffffff;" />
+                <Button fx:id="btnb3" focusTraversable="false" layoutX="105.0" layoutY="5.0" mnemonicParsing="false" onMouseClicked="#clickB3" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #333333;" />
+                <Button fx:id="btnc3" focusTraversable="false" layoutX="205.0" layoutY="5.0" mnemonicParsing="false" onMouseClicked="#clickC3" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #ffffff;" />
+                <Button fx:id="btna2" focusTraversable="false" layoutX="5.0" layoutY="105.0" mnemonicParsing="false" onMouseClicked="#clickA2" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #333333;" />
+                <Button fx:id="btnb2" focusTraversable="false" layoutX="105.0" layoutY="105.0" mnemonicParsing="false" onMouseClicked="#clickB2" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #ffffff;" />
+                <Button fx:id="btnc2" focusTraversable="false" layoutX="205.0" layoutY="105.0" mnemonicParsing="false" onMouseClicked="#clickC2" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #333333;" />
+                <Button fx:id="btna1" focusTraversable="false" layoutX="5.0" layoutY="205.0" mnemonicParsing="false" onMouseClicked="#clickA1" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #ffffff;" />
+                <Button fx:id="btnb1" focusTraversable="false" layoutX="105.0" layoutY="205.0" mnemonicParsing="false" onMouseClicked="#clickB1" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #333333;" />
+                <Button fx:id="btnc1" focusTraversable="false" layoutX="205.0" layoutY="205.0" mnemonicParsing="false" onMouseClicked="#clickC1" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #ffffff;" />
+            </children>
+        </Pane>
+    </children>
+</Pane>
+
